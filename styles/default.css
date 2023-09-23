@@ -1,5 +1,5 @@
 body {
-    background: #C0D7BB;
+    background: #f2f3f5;
 }
 
 #header {
@@ -17,4 +17,55 @@ body {
     text-align: center;
     background: #e4ffe1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-img-container{
+
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.centered{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub-headers{
+
+    color: #41602B; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline dotted #cbc2a3;
+    font-weight: bold;
+}
+.about-para{
+    color: #3a414a;
+    font-weight: 200;
+}
+.button-container{
+    margin: 0;
+  margin-left:50%;
+  /*
+  -ms-transform: translate(-50%, -50%);*/
+
+}
+.signup-btn{
+background-color: #cbc2a3;
+width: 250px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #3a414a;
+font-weight: 200;
+margin-bottom: 50px;
+
+    
+
+}
+.footer{
+    background-color: #41602B;
+
 }
