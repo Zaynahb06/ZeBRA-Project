@@ -1,0 +1,20 @@
+body {
+    background: #C0D7BB;
+}
+
+#header {
+    background: #BEDCFE;
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 70px;
+}
+
+#header-links, #header-nav {
+    text-decoration: none;
+    color: #6A8D73;
+    text-align: center;
+    background: #e4ffe1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
