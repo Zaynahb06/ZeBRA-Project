@@ -5,7 +5,6 @@
         <title>UniConX - Contact Us</title>
         <link rel="stylesheet" href="styles/default.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
     </head>
     <body>
         <header>
@@ -37,46 +36,72 @@
                   </form>
                 </div>
             </nav>
-
         </header>
         <main>
-            <div class="about-img-container">
-                 <img  src="https://i.insider.com/5f5ac45d7ed0ee001e25eb26?width=1300&format=jpeg&auto=webp" style="width:100% ; opacity: 0.9";>
-            <div class="centered">
-                    <div class="contact-box">
-                        <h3 class="sub-headers"style="text-align: center; text-decoration: none;"> Questions?</h3>
-                        <h3 class="sub-headers"style="text-align: center; text-decoration: none;">Send Us A Message!</h3>
-                        <br>
-                        <div class="form-group">
-                            <label for="nameInput">Full Name*</label>
-                            <input type="name" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="First">
-                            <br>
-                            <input type="name" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="Last">
-                        </div>
-                        <div class="form-group">
-                            <label for="phoneInput">Phone Number*</label>
-                            <input type="phone" class="form-control" id="phoneInput" aria-describedby="numberHelp" placeholder="Enter phone number">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email Address*</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Enter Message*</label>
-                            <textarea class="form-control" id="messageInput" rows="5" placeholder="Enter message"></textarea>
-                        </div>
-                        <br>
-                        <div style="text-align: center;"> 
-                            <button type="button" class="btn btn-rounded signup-btn ">Submit </button>
-                        </div>
-                    </div>
-                  </div>
-             </div>
+            <div class="contact-img-container">
+                <img  src="./images/pexels-roberto-cervantes-2262833.jpg" style="width:100% ; opacity: 0.9";>
+                <div class="contact-us">Contact Us</div>
+            </div>
+            <div class="contact-form">
+                <h1>Questions? Send us a message!</h1>
+                <br>
+                <div class="form-group">
+                    <label for="nameInput">Name *</label>
+                    <input type="name" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="John" required>
+                    <br>
+                    <input type="name" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="Doe" required>
+                </div>
+                <div class="radio-buttons">
+                    <label for="userType">Select an Option: *</label><br>
+                    <input type="radio" id="student" name="userType" value="Student" required>
+                    <label for="student">Student</label><br>
+                    <input type="radio" id="recruiter" name="userType" value="Recruiter">
+                    <label for="recruiter">Recruiter</label><br>
+                    <input type="radio" id="educator" name="userType" value="Educator">
+                    <label for="educator">Educator</label><br>
+                </div>
+                <div class="form-group">
+                    <label for="phoneInput">Phone Number *</label>
+                    <input type="phone" class="form-control" id="phoneInput" aria-describedby="numberHelp" placeholder="(123) 456-7890" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email Address *</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="johndoe@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message *</label>
+                    <textarea class="form-control" id="messageInput" rows="3" placeholder="Enter text here..." required></textarea>
+                </div>
+                <br>
+                <div class="button-container"> 
+                    <button type="button" class="btn btn-rounded submit-btn ">Submit</button>
+                </div>
+            </div>
         </main>
-        <footer>
-            <p>Designed by ZeBRA Designs &copy; 2023</p>
-        </footer>
-    
+        <footer class=" text-center text-white footer">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0 ">
+              <!-- Section: Social media -->
+              <section class="">
+                <!-- Twitter -->
+                <img src="https://cdn.pixabay.com/photo/2017/11/10/05/05/twitter-2935414_1280.png"width="40" height="40" class="rounded-circle">
+                <!-- Instagram -->
+                <img src="https://static.vecteezy.com/system/resources/previews/022/257/067/non_2x/icon-media-social-instagram-free-vector.jpg" width="40" height="40" class="rounded-circle">
+                <!-- Linkedin -->
+                <img src="https://thumbs.dreamstime.com/b/linkedin-icon-logo-beautiful-meticulously-designed-223937618.jpg"width="40" height="40" class="rounded-circle">
+                <!-- Github -->
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"width="40" height="40" class="rounded-circle">
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->       
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              <p>Designed by ZeBRA Design &copy 2023</p>
+            </div>
+            <!-- Copyright -->
+          </footer>
+        <!--Bootstrap Java script-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
